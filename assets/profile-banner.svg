@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Daniel Moreno Martínez · Desarrollo de Aplicaciones Multiplataforma</title>
+  <desc id="desc">Portada de perfil en azul noche con detalles azules y verdes. Estudiante de DAM, prácticas de Java y aprendizaje continuo.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#12263a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset="1" stop-color="#56d6b1"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#388bfd" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#388bfd" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#7d9ab8" stroke-opacity=".08"/>
+    </pattern>
+    <clipPath id="rounded"><rect x="1" y="1" width="1198" height="318" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#rounded)">
+    <rect width="1200" height="320" fill="url(#background)"/>
+    <ellipse cx="1000" cy="160" rx="420" ry="320" fill="url(#glow)"/>
+    <rect x="760" width="440" height="320" fill="url(#grid)"/>
+    <path d="M925 0 735 320M1090 0 900 320" stroke="#58a6ff" stroke-opacity=".09"/>
+    <rect x="48" y="43" width="31" height="3" rx="1.5" fill="url(#accent)"/>
+    <text x="91" y="50" fill="#8ba7c2" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="3">MI ESPACIO DE DESARROLLO</text>
+    <text x="48" y="128" fill="#f0f6fc" font-family="Arial, Helvetica, sans-serif" font-size="45" font-weight="700" letter-spacing="-1">Daniel Moreno Martínez</text>
+    <text x="50" y="169" fill="#b7c9dc" font-family="Arial, Helvetica, sans-serif" font-size="21">Desarrollo de Aplicaciones Multiplataforma</text>
+    <rect x="50" y="203" width="69" height="29" rx="14.5" fill="#163451" stroke="#315574"/>
+    <text x="84.5" y="222" text-anchor="middle" fill="#8fc3ff" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="1.3">JAVA</text>
+    <rect x="130" y="203" width="73" height="29" rx="14.5" fill="#123a37" stroke="#245b50"/>
+    <text x="166.5" y="222" text-anchor="middle" fill="#75dfc0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="1.3">DAM</text>
+    <text x="50" y="279" fill="#7f9cb8" font-family="Arial, Helvetica, sans-serif" font-size="14">Aprender. Practicar. Construir.</text>
+    <g transform="translate(870 74)">
+      <rect width="269" height="172" rx="14" fill="#0b1521" stroke="#2b455d"/>
+      <path d="M0 37H269" stroke="#263d53"/>
+      <circle cx="20" cy="19" r="4" fill="#51708c"/>
+      <circle cx="35" cy="19" r="4" fill="#51708c"/>
+      <circle cx="50" cy="19" r="4" fill="#56d6b1"/>
+      <text x="247" y="23" text-anchor="end" fill="#6d8ba8" font-family="monospace" font-size="10">danimrtnnzz</text>
+      <path d="m88 75-21 20 21 20m93-40 21 20-21 20m-36-51-20 62" fill="none" stroke="url(#accent)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="81" y="145" width="110" height="3" rx="1.5" fill="url(#accent)" opacity=".45"/>
+    </g>
+    <rect x="0" y="316" width="1200" height="4" fill="url(#accent)"/>
+  </g>
+  <rect x="1" y="1" width="1198" height="318" rx="20" fill="none" stroke="#283e53"/>
+</svg>
