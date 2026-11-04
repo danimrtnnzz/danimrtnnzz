@@ -19,14 +19,14 @@ Estudio **Desarrollo de Aplicaciones Multiplataforma (DAM)**. En este espacio co
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>01 · Programación con Java</h3>
-      <p>Ejercicios de clase sobre programación estructurada: entrada de datos, condicionales, bucles, arrays y matrices.</p>
+      <h3>01 · Programación estructurada</h3>
+      <p>Ejercicios de clase para practicar entrada de datos, operaciones, condicionales y bucles en Java.</p>
       <p><a href="https://github.com/danimrtnnzz/danimrtnnzz/tree/main/src"><strong>Explorar el código →</strong></a></p>
     </td>
     <td width="50%" valign="top">
-      <h3>02 · Entornos de Desarrollo</h3>
-      <p>Material de la asignatura sobre desarrollo de software. Fork del repositorio de clase, con la atribución de sus fuentes.</p>
-      <p><a href="https://github.com/danimrtnnzz/IESCierva_DAM_EntornosDesarrollo"><strong>Consultar los apuntes →</strong></a></p>
+      <h3>02 · Arrays y matrices</h3>
+      <p>Prácticas con datos en una y dos dimensiones: recorridos, cálculos y comprobaciones de filas, columnas y diagonales.</p>
+      <p><a href="https://github.com/danimrtnnzz/danimrtnnzz/tree/main/src/_4Arrays"><strong>Explorar arrays y matrices →</strong></a></p>
     </td>
   </tr>
 </table>
