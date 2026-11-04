@@ -1,0 +1,60 @@
+package _4Arrays;
+
+import java.util.Scanner;
+
+public class Ejercicio12 {
+    public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+
+        System.out.println("Ejercicio12 - Notas y medias de la clase");
+        System.out.println("========================================");
+
+        String[] alumnos = {"Francisco","Marcos","Laura","Marta","Pedro"};
+        double [] primerTrimestre = {7,10,4,5,6};
+        double [] segundoTrimestre = {4,10,10,5,5};
+        double [] tercerTrimestre = {1,10,8,2,3};
+        int num;
+
+        System.out.println("Listado de alumnos");
+        System.out.println("==================");
+
+            for (int i = 0; i < alumnos.length; i++) {
+                System.out.println(i+1+". "+alumnos[i]);
+            }
+        System.out.print("Selecciona un alumno: ");
+        num = Integer.parseInt(teclado.nextLine());
+
+        System.out.println("1ºeva       2ºeva       3ºeva");
+        System.out.println("-----------------------------");
+        System.out.println(primerTrimestre[num-1]+"         "+segundoTrimestre[num-1]+"         "+tercerTrimestre[num-1]);
+
+        double mediaAlumno =
+                (primerTrimestre[num-1]+segundoTrimestre[num-1]+tercerTrimestre[num-1])/3;
+        System.out.printf(">La media de %s es: %.2f\n",(alumnos[num-1] ),
+                mediaAlumno);
+
+        double suma_medias = 0;
+        for (int i = 0; i < alumnos.length; i++) {
+            double mediaXAlu =
+                    (primerTrimestre[i]+segundoTrimestre[i]+tercerTrimestre[i])/3;
+
+            suma_medias = suma_medias + mediaXAlu;
+        }
+        double mediaGrupo = suma_medias/5;
+
+        System.out.println("");
+        System.out.println("La media del grupo es: "+mediaGrupo);
+
+
+
+
+
+
+
+
+
+
+
+    }
+}
+
