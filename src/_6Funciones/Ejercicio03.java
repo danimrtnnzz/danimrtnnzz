@@ -48,6 +48,7 @@ public class Ejercicio03 {
 
             boolean  formatoFechaCorrecto= true;  //reseteo variable
 
+            //fecha = null ; para ver la pila de llamadas
             String[] camposFecha = fecha.split("/");
             //Tenemos que tener tres campos
             if (camposFecha.length !=3){
