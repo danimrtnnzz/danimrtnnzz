@@ -16,8 +16,12 @@ public class Ejercicio05 {
         System.out.print("Rango superior: ");
         int max = Integer.parseInt(teclado.nextLine());
 
-        int[] lista = arrayAleatorio(tam,min,max);
-        imprimirArray(lista);
+
+        for (int i = 0; i < 50; i++) {
+            int[] lista = arrayAleatorio(tam,min,max);
+            imprimirArray(lista);
+
+        }
     }
 
     /**
