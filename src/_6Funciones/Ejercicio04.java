@@ -2,18 +2,27 @@ package _6Funciones;
 
 public class Ejercicio04 {
     public static void main(String[] args) {
-        int[] lista = {1,3,5,8,12,3,6};
+        int [] lista = {1,3,5,8,12,3,6};
         imprimirArray(lista);
-        //Llamo a la funciona y meto el array que me pide que es el array lista
     }
 
+    //  +----+----+----+----+
+    //  |   3|   7|   9|   1|
+    //  +----+----+----+----+
     public static void imprimirArray(int[] array){
-        //Imprimo el Array de forma bonita
-
-        System.out.println("| ");
-        for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i]+" | ");
+        //Imprimimos array de forma bonita
+        for (int i = 0; i < array.length ; i++) {
+            System.out.print("+----");
         }
+        System.out.println("+");
 
-    } //Fin funciona imprimirArray
+        for (int i = 0; i < array.length ; i++) {
+            System.out.printf("|%3d ",array[i]);
+        }
+        System.out.println("|");
+        for (int i = 0; i < array.length ; i++) {
+            System.out.print("+----");
+        }
+        System.out.println("+");
+    }//fin imprimirArray
 }
