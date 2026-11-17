@@ -18,7 +18,9 @@ public class Ejercicio06 {
             System.out.println("Los arrays son distintos");
         }
 
-        // Guardo el array devuelto por fusionarArrays y después lo imprimo.
+        //En la variable fusionado guardo la funcion de fusionar arrays para
+        // asi poder meterlo en la funcion imprimirarray y que asi se muestre
+        // en pantalla
         int[] fusionado = fusionarArrays(lista1, lista2);
 
         Util.imprimirArray(fusionado);
