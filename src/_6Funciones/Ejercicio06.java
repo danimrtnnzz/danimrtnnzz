@@ -1,8 +1,6 @@
 package _6Funciones;
 
 
-import utilidades.Util;
-
 public class Ejercicio06 {
     public static void main(String[] args) {
         System.out.println("Ejercicio06 - Comparar y fusionar arrays");
@@ -22,8 +20,7 @@ public class Ejercicio06 {
         // asi poder meterlo en la funcion imprimirarray y que asi se muestre
         // en pantalla
         int[] fusionado = fusionarArrays(lista1, lista2);
-
-        Util.imprimirArray(fusionado);
+        imprimirArray(fusionado);
     }
 
 
@@ -61,4 +58,22 @@ public class Ejercicio06 {
 
         return lista3;
     }
+
+    public static void imprimirArray(int[] array){
+        //Imprimimos array de forma bonita
+        for (int i = 0; i < array.length ; i++) {
+            System.out.print("+----");
+        }
+        System.out.println("+");
+
+        for (int i = 0; i < array.length ; i++) {
+            System.out.printf("|%3d ",array[i]);
+        }
+        System.out.println("|");
+        for (int i = 0; i < array.length ; i++) {
+            System.out.print("+----");
+        }
+        System.out.println("+");
+    }//fin imprimirArray
+
 }
