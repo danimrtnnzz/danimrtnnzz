@@ -1,6 +1,5 @@
 package _5Cadenas;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 public class Ejercicio01 {
